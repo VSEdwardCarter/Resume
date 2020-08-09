@@ -7,6 +7,9 @@ Top Secret Clearance | Intelligence Analysis | Data Scientist | Full-Stack | Ora
 Project Management | Microsoft Azure | MS Office | AWS | IT Architecture
 Data Engineering | Network | Data Warehousing
 
+#### *Please view the different branches for examples projects that have completed.*
+
+
 # WORK EXPERIENCE
 ## 305th Military Intelligence Battalion – Fort Huachuca, AZ
 Senior Operations Manager September 2018 – Present

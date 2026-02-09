@@ -62,14 +62,23 @@ ments.
 and current acquisition data into relational stores.
 
 ### Texas ProTax 04/2021 – 09/2022 Data Engineer
-
 * Aggregated disparate datasets (SQL/NoSQL) to provide curated training and analytics datasets for
 AI/ML workflows.
 * Conducted EDA using Pandas/NumPy/scikit-learn to characterize data and inform model selection and
 tuning.
 
-## Selected Projects
+### United States Army 09/2002 – 04/2024 
+Intelligence Analyst / Data Analyst → Data Scientist → Data Architect
+* Applied data analysis techniques to multi-source intelligence datasets, performing data cleansing, corre-
+lation, and trend analysis.
+* Built statistical and predictive models to support forecasting and decision-making under uncertainty.
+* Designed and maintained analytical data structures and pipelines to support repeatable analysis at scale.
+* Served as a technical bridge between analysts and engineers, defining data requirements and system
+architecture.
 
+
+
+## Selected Projects
 ### Classification-Aware Federated Pareto Optimization
 Python, PyTorch, Federated Learning
 * Designed a classification-aware federated learning approach to identify Pareto-efficient tradeoffs across

@@ -1,44 +1,105 @@
 # Edward J. Carter
-SFC, USA
 
 https://www.linkedin.com/in/edward-carter/
 
-Top Secret Clearance | Intelligence Analysis | Data Scientist | Full-Stack | Oracle/SQL
-Project Management | Microsoft Azure | MS Office | AWS | IT Architecture
-Data Engineering | Network | Data Warehousing
+## Target Role
+Senior Data Engineer
+## Summary: 
+Senior data engineer with production experience delivering cloud-native, Kubernetes-based data platforms
+for Intelligence Community GEOINT/ISR workloads. Skilled in building high-volume batch and streaming
+pipelines, distributed search/indexing, and hybrid deployments across AWS and constrained environments.
 
-#### *Please view the different branches for examples projects that have completed.*
+
+## Core Skills
+* **Platforms:** Kubernetes, Docker, AWS (hybrid/on-prem), CI/CD, observability
+* **Data Engineering:**  Batch & streaming pipelines, distributed systems, data modeling, indexing/search
+(Elastic/Kibana), data quality
+* **Languages:** Python, Scala, SQL, Java
+* **Security:** TS // SCI CI-Poly
 
 
-# WORK EXPERIENCE
-## 305th Military Intelligence Battalion – Fort Huachuca, AZ
-Senior Operations Manager September 2018 – Present
-* Served in the project management office of a 1200 person organization. Managed over 600 new projects. Primary role related to the initiation and execution of projects.
-* Created processes and new organizations to accomplish organizational tasks and responsibility.
-## 16th Combat Aviation Brigade – JBLM, WA
-Intel Operations Manager// Security Manager// Talent Manager August 2015 – August 2018
-*  Designed intelligence systems architecture to improve processing capability and data transmission efficiency. Utilized provided equipment and acquired additional equipment to increase the availability of data and reliability. Increased the organization’s capacity to process big data.
-* Managed the intelligence division of an aviation centric organization. Developed training plan for personnel to enhance capability of the division.
-## Combined Air and Space Operations Center – Al Udeid, Qatar
-Senior Joint Intelligence Analyst August 2014 – August 2015
-* Principal analyst for a multi-agency organization. Standardized processes of intelligence product submission through training and professional development seminars.
-* Managed multiple regional out stations during the initial beginning of the USG operations in the Levant region. Provided critical information to senior-level leadership for prosecution of kinetic strikes.
-## 15th Sustainment Brigade – Fort Bliss, TX
-Senior Intelligence Analyst October 2011 – August 2014
-* Served as senior policy advisor for personnel security, physical security, and information security.
-* Supervised, managed, and trained a department of eight junior analyst. Managed requirements, resources and equipment.
-## Intelligence and Security Command – Fort Belvoir, VA
-Mid-level Analyst//Geo-Spatial Analyst May 2009 – October 2011
-* Primary data visualization lead for a major military command. Performed Extract-Transform-Load operations daily to provide consumers with the most up to date information regarding problem sets.
-* Utilized Geographic/Geospatial Information systems to transform data into information and disseminate as knowledge to senior level policy makers.
-## 2nd Stryker Cavalry Regiment – Vilseck, GE
-Junior Intelligence Analyst // Team Leader June 2006 – May 2009
-* Supervised a data entry team of a data collection oriented organization. Managed objective requirements with personnel requirement
-* Synchronized data assessing and analyzing of outlying organizations to provide value-added information to managing director and staff.
-## 25th Infantry Division – Fort Lewis, WA
-Entry Level Intelligence Analyst November 2003 – June 2006
-* Data entry team member. Focused on normalization of database structures. Used multiple data streams to correlate and associate entities to real-world in real-time.
+## Professional Experience
 
+### Ennoble First (SAFFIRE) 12/2023 – Present Senior Data Engineer
+* Principal Data Engineer on a cloud-native, Kubernetes-based data platform supporting Intelligence
+Community GEOINT and ISR workflows across multiple operational enclaves (dev/test/prod).
+* Developed and validated services and data pipelines in lower environments and deployed to higher-
+classification production enclaves, ensuring consistency, auditability, and operational reliability.
+* Architected and maintained high-volume batch and streaming-style data pipelines processing tens of
+millions of records per day across AWS and hybrid environments.
+* Designed ingestion, transformation, and indexing workflows enabling near-real-time search and exploita-
+tion of geospatial and observational data.
+* Operated and optimized distributed search and indexing systems (Elastic/Kibana), maintaining data
+integrity and availability across environments.
+* Built fault-tolerant pipelines in Scala and Python, reducing end-to-end processing time by while improv-
+ing system resiliency.
+* Developed mission-facing frontend features using TypeScript and Svelte, integrating with backend APIs
+and data services to support analyst workflows.
+* Implemented complex UI components (e.g., data grids, forms, imagery and observation tooling) to
+visualize, filter, and manage large-scale intelligence datasets.
+* Collaborated closely with backend, data, and platform teams to align frontend behavior with data
+models, validation rules, and security constraints.
+* Supported production systems in TS/SCI environments, balancing performance, security controls, and
+operational risk across the full stack.
+* Improved analyst workflow efficiency by reducing UI-driven data errors and improving validation and
+feedback in mission forms.
+
+### Los Alamos National Laboratory (Programming & Runtime Environment) 09/2023 – 12/2023 Data Engineer
+* Created and deployed RHEL and Ubuntu servers in unclassified and DOE-classified environments with
+custom services.
+* Designed and deployed microservice architecture for license management supporting HPC utilization.
+* Created, deployed, and monitored Kubernetes clusters hosting Docker containers to standardize delivery;
+increased team productivity by ˜10%.
+
+### Army Software Factory (Army Futures Command) 05/2021 – 12/2023 Software Engineer / Data Engineer
+* Built and maintained ETL pipelines shaping and transporting 500M+ rows of data, reducing runtime
+from 24 hours to ˜26 minutes.
+* Developed data pipelines aggregating messaging/internal data and delivering to DoD platforms via AWS
+S3.
+* Tuned and restructured databases to reduce 504 errors by 84% for users in limited-connectivity environ-
+ments.
+* Mined and wrangled data from APIs and web sources using Spring-based services to ingest historical
+and current acquisition data into relational stores.
+
+### Texas ProTax 04/2021 – 09/2022 Data Engineer
+
+* Aggregated disparate datasets (SQL/NoSQL) to provide curated training and analytics datasets for
+AI/ML workflows.
+* Conducted EDA using Pandas/NumPy/scikit-learn to characterize data and inform model selection and
+tuning.
+
+## Selected Projects
+
+### Classification-Aware Federated Pareto Optimization
+Python, PyTorch, Federated Learning
+* Designed a classification-aware federated learning approach to identify Pareto-efficient tradeoffs across
+performance, fairness, and resource cost.
+* Implemented multi-objective optimization to support decision-making across heterogeneous clients and
+constrained environments.
+* Evaluated convergence and tradeoff stability versus baseline federated learning strategies.
+
+### Large-Scale PySpark Medallion Data Pipeline
+PySpark, Delta Lake, Parquet
+* Architected an end-to-end bronze–silver–gold medallion pipeline for large analytical datasets using PyS-
+park.
+* Implemented data quality rules and investigation tables to isolate invalid records while preserving analyst
+visibility.
+* Optimized transformations and partitioning to support downstream analytics and ML workloads.
+
+### Geospatial Analytics and Visualization Platform (DoD / SAFFIRE Context)
+Databricks, Apache Sedona, H3, AWS
+* Built a geospatial analytics pipeline backed by medallion tables to support analyst workflows at scale.
+* Integrated H3 indexing and WKT geometries to enable performant spatial joins, clustering, and filtering.
+* Delivered interactive map-based analysis using geospatial SQL and Kepler.gl for operational use cases.
+
+### Kubernetes-Based Local Data Science Environment
+Kubernetes, Docker, Postgres, Qdrant/pgvector
+* Designed a reproducible local Kubernetes environment for data engineering and ML experimentation
+2aligned to cloud-native patterns.
+* Integrated relational and vector storage services to support retrieval and embedding workflows end-to-
+end.
+* Improved developer productivity through scripted workflows, service orchestration, and observability-
+friendly configuration.
 
 ## EDUCATION
 * B.S. in Data Management/ Data Analytics       

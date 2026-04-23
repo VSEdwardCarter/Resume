@@ -74,6 +74,8 @@ I design and build **data platforms that treat pipelines as products**, emphasiz
 - [RAG with Kubernetes Documentation](https://github.com/VSEdwardCarter/rag_with_k8s_doc)  
   Production-style RAG pipeline with Bronze/Silver/Gold processing and vector search
 
+- [Context-Aware Pareto Optimization](https://github.com/VSEdwardCarter/CAware_pareto)  
+  Experimental framework for modeling trade-offs and decision-making using context-aware Pareto optimization
 ---
 
 ## 🔄 Versioning Approach

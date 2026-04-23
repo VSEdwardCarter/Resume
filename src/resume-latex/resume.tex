@@ -1,0 +1,63 @@
+% !TeX program = pdflatex
+\documentclass[10pt]{article}
+
+% ---------- Layout ----------
+\usepackage[margin=0.6in]{geometry}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.3em}
+\pagestyle{empty}
+
+% ---------- Packages ----------
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+
+% ---------- PDF Metadata ----------
+\hypersetup{
+	pdftitle={Edward J. Carter — Data Engineer Resume},
+	pdfauthor={Edward J. Carter},
+	pdfsubject={Data Engineering, Data Platforms, Distributed Systems},
+	pdfkeywords={Data Engineering, Spark, Kubernetes, Palantir, ETL, Data Platforms}
+}
+
+% ---------- Section Formatting ----------
+\titleformat{\section}
+{\large\bfseries}
+{}
+{0em}
+{}
+
+\titlespacing{\section}{0pt}{6pt}{3pt}
+
+% ---------- Lists ----------
+\setlist[itemize]{
+	leftmargin=*,
+	itemsep=1pt,
+	parsep=0pt,
+	topsep=2pt
+}
+
+% ---------- Header ----------
+\newcommand{\nameheader}[1]{%
+	\begin{center}
+		\LARGE \textbf{#1}
+	\end{center}
+	\vspace{-0.6em}
+}
+
+\newcommand{\contactrow}[1]{%
+	{\centering\small #1\par}
+	\vspace{-0.3em}
+}
+
+% ---------- Document ----------
+\begin{document}
+	
+	\input{sections/header}
+	\input{sections/summary}
+	\input{sections/skills}
+	\input{sections/experience}
+	\input{sections/projects}
+	\input{sections/education}
+	
+\end{document}

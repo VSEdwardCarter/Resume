@@ -18,7 +18,7 @@
 [Download Resume](senior/edward-carter-senior-data-engineer.pdf)
 
 ### Data Platform Leadership (Secondary)
-[Download Resume](leadership/edward-carter-data-platform-leadership.pdf)
+[Download Resume](leadership/edward-carter-data-platform-leadership042926.pdf)
 
 ---
 

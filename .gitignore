@@ -1,7 +1,43 @@
+# =========================
+# LaTeX build artifacts
+# =========================
 *.aux
 *.log
 *.out
-*.synctex.gz
 *.toc
+*.lof
+*.lot
 *.fls
 *.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+
+# =========================
+# Output directories
+# =========================
+src/out/
+**/out/
+
+# =========================
+# Temporary / editor files
+# =========================
+*.swp
+*.swo
+*~
+.DS_Store
+
+# IntelliJ / JetBrains
+.idea/
+*.iml
+
+# =========================
+# PDFs (ignore globally, allow curated)
+# =========================
+*.pdf
+
+# Keep ALL PDFs in these folders (including timestamped)
+!leadership/*.pdf
+!senior/*.pdf

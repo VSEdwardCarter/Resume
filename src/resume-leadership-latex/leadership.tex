@@ -1,0 +1,43 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[margin=0.65in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{array}
+
+\setlength{\parindent}{0pt}
+\pagenumbering{gobble}
+
+\titleformat{\section}
+{\large\bfseries\uppercase}
+{}
+{0em}
+{}
+[\titlerule]
+
+\titlespacing*{\section}{0pt}{8pt}{5pt}
+
+\setlist[itemize]{
+	leftmargin=1.2em,
+	itemsep=2pt,
+	topsep=2pt,
+	parsep=0pt,
+	partopsep=0pt
+}
+
+\begin{document}
+
+%	{\LARGE \textbf{EDWARD J. CARTER}}\\[3pt]
+%	\textbf{Data Platform Strategy \& Modernization $|$ Enterprise Data Architecture $|$ Engineering Leadership}\\[3pt]
+%	\href{mailto:edward.j.carter2@gmail.com}{edward.j.carter2@gmail.com} $|$ (253) 548-5828 $|$ \href{https://www.linkedin.com/}{LinkedIn}
+	\input{sections/header}
+	\input{sections/summary}
+	\input{sections/competencies}
+	\input{sections/experience}
+	\input{sections/leadership}
+	\input{sections/technical}
+	\input{sections/education}
+
+\end{document}

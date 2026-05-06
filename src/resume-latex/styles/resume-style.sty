@@ -1,0 +1,63 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{resume-style}[2026/05/06 Edward Carter Resume Style]
+
+% ---------- Packages ----------
+\RequirePackage[margin=0.55in]{geometry}
+\RequirePackage[hidelinks]{hyperref}
+\RequirePackage{enumitem}
+\RequirePackage{titlesec}
+
+% ---------- Page ----------
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.15em}
+
+% ---------- Section Formatting ----------
+\titleformat{\section}
+{\large\bfseries}
+{}
+{0em}
+{}
+
+\titlespacing{\section}
+{0pt}
+{4pt}
+{2pt}
+
+% ---------- Lists ----------
+\setlist[itemize]{
+    leftmargin=*,
+    itemsep=0pt,
+    parsep=0pt,
+    topsep=1pt,
+    partopsep=0pt
+}
+
+% ---------- Header ----------
+\newcommand{\nameheader}[1]{%
+    \begin{center}
+    \LARGE \textbf{#1}
+    \end{center}
+    \vspace{-0.9em}
+}
+
+\newcommand{\contactrow}[1]{%
+        {\centering\small #1\par}
+    \vspace{-0.6em}
+}
+
+% ---------- Resume Helpers ----------
+\newcommand{\resumeRole}[3]{%
+    \textbf{#1} \hfill #2 \\
+    #3
+    \vspace{-0.2em}
+}
+
+\newcommand{\resumeProject}[2]{%
+    \textbf{#1} \hfill {\small\textit{#2}}
+    \vspace{-0.2em}
+}
+% ---------- Skills Row ----------
+\newcommand{\skillrow}[2]{%
+    \textbf{#1:} #2\vspace{-0.25em}\\
+}

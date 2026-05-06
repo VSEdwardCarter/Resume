@@ -18,7 +18,7 @@
 Each resume is tailored to a specific role type while sharing a common core.
 
 ### 🟦 Data Platform (Primary)
-[Download Resume](senior/edward-carter-platform.pdf)
+[Download Resume](senior/edward-carter-platform-20260506.pdf)
 
 ### 🟨 Data Architect / Director Track
 [Download Resume](senior/edward-carter-architect-20260506.pdf)

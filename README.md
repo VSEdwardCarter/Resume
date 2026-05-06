@@ -1,61 +1,73 @@
 # 📄 Resume
-## Professional Profile – Data Engineering & Platform Architecture
+## Data Platform Engineering | Architecture | AI Systems
 
-![Role](https://img.shields.io/badge/Role-Senior%20Data%20Engineer-blue)
 ![Focus](https://img.shields.io/badge/Focus-Data%20Platforms-blueviolet)
-![Architecture](https://img.shields.io/badge/Expertise-Hybrid%20Systems-green)
+![Role](https://img.shields.io/badge/Level-Senior%20%2F%20Principal-blue)
+![Architecture](https://img.shields.io/badge/Expertise-Distributed%20Systems-green)
 ![Domain](https://img.shields.io/badge/Domain-Enterprise%20%2F%20IC-lightgrey)
 
 ---
 
-> Version-controlled resume aligned to hands-on data engineering, platform architecture, and AI-driven systems.
+> Version-controlled, modular resume system aligned to platform engineering, data architecture, and AI-driven systems.  
+> Built using modular LaTeX with role-based variants (platform, architect, AI, mission)
 
 ---
 
-## 📄 Resume Versions
+## 📄 Resume Variants
 
-### Senior Data Engineer (Primary)
-[Download Resume](senior/edward-carter-senior-data-engineer.pdf)
+Each resume is tailored to a specific role type while sharing a common core.
 
-### Data Platform Leadership (Secondary)
-[Download Resume](leadership/edward-carter-data-platform-leadership042926.pdf)
+### 🟦 Data Platform (Primary)
+[Download Resume](senior/edward-carter-platform.pdf)
+
+### 🟨 Data Architect / Director Track
+[Download Resume](senior/edward-carter-architect-20260506.pdf)
+
+### 🟩 AI / ML Platform
+[Download Resume](senior/edward-carter-ai-20260506.pdf)
+
+### 🟥 Mission / IC Systems
+[Download Resume](senior/edward-carter-mission-20260506.pdf)
+
+### 🟪 Data Platform Leadership
+[Download Resume](leadership/edward-carter-data-platform-leadership.pdf)
 
 ---
 
 ## 🎯 Professional Focus
 
-I design and build **data platforms that treat pipelines as products**, emphasizing:
+I design and build **data platforms that treat pipelines as products**, with emphasis on:
 
-- Data quality and governance
+- Data quality, governance, and lifecycle ownership
+- Scalable ingestion, transformation, and serving patterns
 - Observability and operational metrics
-- Scalable ingestion and transformation patterns
-- Hybrid deployment constraints (on-prem + cloud)
+- Hybrid constraints (on-prem + cloud integration)
 
 ---
 
-## 🧠 Core Competencies
+## 🧠 Core Capabilities
 
-### Data Engineering
-- Kafka-based streaming architectures
-- Medallion (Bronze/Silver/Gold) pipelines
-- PySpark / distributed processing
-- Data quality enforcement and quarantine design
+### Data Platform Engineering
+- Distributed data systems (Spark, Kafka)
+- Medallion architecture (Bronze/Silver/Gold)
+- Incremental and batch/stream hybrid pipelines
+- Data validation, anomaly detection, and quarantine design
 
 ### Platform Architecture
-- Hybrid data systems (on-prem + cloud UI/API)
 - API-first data access patterns
 - Decoupled ingestion, processing, and serving layers
-- Data lifecycle ownership
+- Hybrid platform design (on-prem + cloud)
+- System-level data lifecycle management
 
 ### AI / Retrieval Systems
-- Retrieval-Augmented Generation (RAG) pipelines
-- Vector databases (Qdrant)
+- Retrieval-Augmented Generation (RAG)
+- Vector databases (Qdrant, pgvector)
 - Embedding pipelines and semantic search
-- LLM integration into data platforms
+- Integration of LLM workflows into data systems
 
 ### Infrastructure & Tooling
-- Kubernetes (k3s)
-- FastAPI services
+- Kubernetes (k3s), containerized services
+- FastAPI-based APIs
 - systemd-based orchestration
 - Local-first development environments
 
@@ -63,35 +75,36 @@ I design and build **data platforms that treat pipelines as products**, emphasiz
 
 ## 🔗 Related Work
 
-> The following repositories demonstrate end-to-end data platform capabilities across ingestion, processing, observability, and AI-driven retrieval.
+> End-to-end data platform systems across ingestion, processing, observability, and AI-driven retrieval.
 
 - [Dev Stream](https://github.com/VSEdwardCarter/dev-stream)  
-  Streaming ingestion system with partitioned landing zone and replayable data architecture
+  Streaming ingestion system with partitioned landing zone and replayable architecture
 
 - [Hybrid Metrics Platform](https://github.com/VSEdwardCarter/hybrid-metrics-platform)  
-  Hybrid data platform exposing pipeline observability metrics via API
+  Hybrid platform exposing pipeline observability metrics via API
 
 - [RAG with Kubernetes Documentation](https://github.com/VSEdwardCarter/rag_with_k8s_doc)  
-  Production-style RAG pipeline with Bronze/Silver/Gold processing and vector search
+  RAG pipeline with medallion processing and vector search
 
 - [Context-Aware Pareto Optimization](https://github.com/VSEdwardCarter/CAware_pareto)  
-  Experimental framework for modeling trade-offs and decision-making using context-aware Pareto optimization
+  Framework for modeling trade-offs and decision optimization
+
 ---
 
-## 🔄 Versioning Approach
+## 🔄 Approach
 
-This resume is maintained as a living document:
+This repository reflects a **modular resume system**:
 
-- Updated alongside project work
-- Aligned with current technical focus
-- Structured for both ATS and technical review
+- Shared core content (experience, projects, education)
+- Variant-specific summaries and skill emphasis
+- Targeted outputs for platform, architecture, AI, and mission roles
 
 ---
 
 ## 📎 Summary
 
-This repository reflects:
+This repo demonstrates:
 
-- A systems-oriented approach to data engineering
+- Systems-oriented data engineering
 - Platform-level architectural thinking
-- A focus on production-aligned solutions  
+- Practical alignment between engineering and operational outcomes  

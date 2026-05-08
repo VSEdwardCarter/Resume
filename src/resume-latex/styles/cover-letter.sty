@@ -1,0 +1,46 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{cover-letter}[2026/05/07 Edward Carter cover letter style]
+
+\usepackage[margin=0.75in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{parskip}
+\usepackage{xcolor}
+
+\pagenumbering{gobble}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.75em}
+
+\newcommand{\candidateName}{Edward J. Carter}
+\newcommand{\candidatePhone}{253-548-5828}
+\newcommand{\candidateEmail}{edward.j.carter2@gmail.com}
+\newcommand{\candidateLinkedIn}{linkedin.com/in/edward-carter}
+
+\newcommand{\coverHeader}{
+    \begin{center}
+    {\LARGE \textbf{\candidateName}} \\
+    \small
+    \candidatePhone \;\textbar\;
+    \href{mailto:\candidateEmail}{\candidateEmail} \;\textbar\;
+    \href{https://\candidateLinkedIn}{\candidateLinkedIn}
+    \end{center}
+    \vspace{0.5em}
+}
+
+\newcommand{\coverMeta}[4]{
+    #1 \\ % Date
+    #2 \\ % Company
+    #3 \\ % Role
+    #4 \\ % Location / Remote
+    \vspace{0.75em}
+}
+
+\newcommand{\coverGreeting}[1]{
+    Dear #1,
+}
+
+\newcommand{\coverClosing}{
+    Respectfully,\\
+    \vspace{1.5em}
+    \candidateName
+}
